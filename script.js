@@ -23,8 +23,8 @@ async function searchUser() {
 	const startTime = performance.now();
 
 	try {
-		// const response = await fetch("http://localhost:3000/api/users");
-		const response = await fetch("http://localhost:3000/api/users-cache-controlled");
+		const response = await fetch("http://localhost:3000/api/users");
+		// const response = await fetch("http://localhost:3000/api/users-cache-controlled");
 		const users = await response.json();
 
 		const user = users.find(
