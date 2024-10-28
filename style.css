@@ -1,0 +1,20 @@
+.searchBox {
+	padding: 20px;
+}
+#searchInput {
+	padding: 8px 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+#searchButton {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+#timeTaken {
+	margin-top: 10px;
+	font-size: 32px;
+	font-weight: bold;
+}
